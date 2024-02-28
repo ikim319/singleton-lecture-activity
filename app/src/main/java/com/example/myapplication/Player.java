@@ -20,6 +20,12 @@ public class Player {
         this.movementSpeed = 5.0;
     }
 
+    private Player(double x, double y, double movementSpeed) {
+        this.x = x;
+        this.y = y;
+        this.movementSpeed = movementSpeed;
+    }
+
     /*
      * TODO: Returns the instance of the player
      * Name: getPlayer()
